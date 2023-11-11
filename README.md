@@ -24,9 +24,7 @@
       - git clone https://github.com/url-TO_REPO_HERE
           - git clone command - it copies the repo from github  to your local computer
       - git clone https://github.com/YOUR-USERNAME/YOURREPOSITORY
-          - Your command line should respond as below.
-
-         ![Alt text](image.png)
+         
 
   - ### Navition
       - Navigate to the folder in which you cloned your repo
@@ -50,7 +48,7 @@
   - https://github.com/Sheila-Ha/password-gen
 
 ## Credits:
-The guide used:
+The guides used:
  - [Instructions and Starter Code](https://git.bootcampcontent.com/University-of-Minnesota/UofM-VIRT-FSF-PT-10-2023-U-LOLC/-/tree/main/01-HTML-Git-CSS/02-Challenge)
  - [Debugging console](https://stackoverflow.com/questions/69851109/js-password-generator-character-length-not-working)
  - [Characters](https://owasp.org/www-community/password-special-characters)
@@ -61,6 +59,6 @@ The guide used:
 - [Not](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT)
 - [&&](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
 - [Addition Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment)
-
+- [Statements and Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
 ## License:
   - By contributing, you agree that your contribution wil be licensed under its MIT License.
