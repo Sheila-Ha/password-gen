@@ -18,7 +18,7 @@ function generatePassword() {
     alert('Length must be between 8 and 128 characters');
     return '';
   }
-  //prompts for user password direction
+  //password direction through button prompts for user to give direction
   var useLowerCase = confirm('use lowercase letters in password');
   var useUpperCase = confirm('use uppercase letters in password');
   var useNumeric = confirm('use a number in password');
