@@ -9,7 +9,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
+//prompt criteria for users to select length of 8-128 characters
 function generatePassword() {
   var password = '';
   var passwordLength = prompt('Enter a length for your password from 8-128 characters');
@@ -18,6 +18,7 @@ function generatePassword() {
     alert('Length must be between 8 and 128 characters');
     return '';
   }
+  //prompts for user password direction
   var useLowerCase = confirm('use lowercase letters in password');
   var useUpperCase = confirm('use uppercase letters in password');
   var useNumeric = confirm('use a number in password');
@@ -26,6 +27,7 @@ function generatePassword() {
     alert('you must use at least one character type');
     return '';
   }
+  //criteria for password possibilities
   var lowerCase = 'abcdefghigkmnopqrstuvwxyz'; //omitted lowercase L because it can look the same depending on font used
   var upperCase = 'ABCDEFGHJKLMNOPQRSTUVWXYZ'; //omitted uppercase I because it can look the same depending on the font used
   var numbers = '23456789'; //omitted 0 & 1 because it can look the same depending on the font used
@@ -43,6 +45,7 @@ function generatePassword() {
   if (useSpecialCharacter) {
     characterCandidates += symbols;
   }
+  //for loop to select random characters for output
   for(var i=0; i<passwordLength; i++) {
     var characterIndex = Math.floor(Math.random() * characterCandidates.length-1);
     var randomSelectedCharacter = characterCandidates.charAt(characterIndex);
