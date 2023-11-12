@@ -4,6 +4,8 @@
 ## Description
   - This is a JavaScript password generator. Certain criteria has been set to prompt the user for information. Once they have successfully gone through the prompts, imputed the data they then will get a random generated password. 
 
+  ![password-gen screenshot]("C:\Users\slhan\repos\password-gen\password_gen_screenshot.png")
+
   ### What are the aspects of my website?
     - Character length has been designed to meet a certain criteria
     - A set of 4 prompts that will ask user preference as a guide to generate the password
@@ -44,12 +46,13 @@
 ## Usage:
   - On your machine navigate to the folder you created.
   - Locate the Index.html file in your browser.
-  - https://sheila-ha.github.io/password-gen/
+  - [My password generator](https://sheila-ha.github.io/password-gen/)
   - https://github.com/Sheila-Ha/password-gen
 
 ## Credits:
 The guides used:
- - [Instructions and Starter Code](https://git.bootcampcontent.com/University-of-Minnesota/UofM-VIRT-FSF-PT-10-2023-U-LOLC/-/tree/main/01-HTML-Git-CSS/02-Challenge)
+ - [Instructions and Starter Code](https://git.bootcampcontent.com/University-of-Minnesota/UofM-VIRT-FSF-PT-10-2023-U-LOLC/-/tree/main/03-JavaScript/02-Challenge)
+ - [Password Generator](https://www.geeksforgeeks.org/how-to-generate-a-random-password-using-javascript/)
  - [Debugging console](https://stackoverflow.com/questions/69851109/js-password-generator-character-length-not-working)
  - [Characters](https://owasp.org/www-community/password-special-characters)
  - [parseInit](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt)
