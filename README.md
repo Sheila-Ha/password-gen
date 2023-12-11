@@ -4,7 +4,7 @@
 ## Description
   - This is a JavaScript password generator. Certain criteria has been set to prompt the user for information. Once they have successfully gone through the prompts, imputed the data they then will get a random generated password. 
 
-  ![password-gen screenshot]("C:\Users\slhan\repos\password-gen\password_gen_screenshot.png")
+  [password-gen screenshot](https://github.com/Sheila-Ha/password-gen/blob/main/password_gen_screenshot.png)
 
   ### What are the aspects of my website?
     - Character length has been designed to meet a certain criteria
